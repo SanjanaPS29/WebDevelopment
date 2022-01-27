@@ -1,0 +1,182 @@
+body{
+
+}
+.main-image img{
+width:100%;
+margin-bottom:30px;
+}
+.header p{
+display:inline;
+float:left;
+letter-spacing:0.2em;
+padding-left:30px;
+}
+.header div{
+color:#fff;
+letter-spacing:0.2em;
+display:inline;
+}
+ul{
+list-style:none;
+}
+ul li{
+display:inline;
+}
+
+li a{
+text-decoration:none;
+display:inline;
+letter-spacing:0.2em;
+float:right;
+padding:10px;
+color:black;
+}
+
+.main-content{
+margin:10px 500px;
+padding:5px 5px;
+
+}
+.main-content2{
+    margin:10px 150px;
+}
+
+
+.container2 .container2-box1 img{
+    width: 96%;
+   vertical-align: middle;
+}
+.list-style{
+text-align: center;
+font-size: 32px;
+font-weight: 100px;
+}
+.main-content3{
+    margin:10px 4%;
+    width: 80%;
+}
+
+.main-content3 h2{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+.main-content{
+margin:1% 10%;
+padding:10px 10px;
+}
+.main-content  .content1 {
+min-width:10%;
+}
+.main-content {
+margin-bottom:5% ;
+}
+.main-content  .content2{
+  
+    padding:5px;
+    width:40%;
+}
+.container1-box2 .para2{
+text-align:center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main-content{
+padding:10px 20px;
+}
+
+
+.main-content  .main-content2 .para1{
+    text-align:left;
+}
+
+.content1{
+    display: inline;
+}
+.content2{
+    float:right;
+    display: inline;
+}
+
+.form-group input[type="text"],input[type="date"]{
+min-width:20%;
+height:60px;
+border:none;
+border-bottom:1px solid black;
+margin-bottom:10px;
+padding-left:20px ;
+
+}
+
+.button{
+padding: auto;
+height:40px;
+border:none;
+margin-top:30px;
+margin-left: 0;
+
+}
+.button:hover{
+    background-color:#d9e0e4; 
+}
+.btn{
+    margin-left: 70%;
+}
+
+.main-footer{
+text-align:center;
+padding-top: 2%;
+height:100px;
+background-color:#d9e0e4;
+bottom:0;
+}
+
+.form-group{
+    text-align: center;
+}
+
+@media (max-width:964px) {
+    .container1 ,.container2{
+        flex-direction: column;
+    }
+    .container1 .container1-box1 img,.container2 .container1-box2 img{
+        width: 100%; 
+    }
+    .main-content3{
+    width: 80%;
+}
+.container2-box1{
+    width: 100%;
+}
+}
+
+
+.container1, .container2{
+    display: flex;
+    margin: 10px 40px;
+}
+
+.container2{
+    align-items: center;
+}
+.container1 div,.container2 div{
+    padding: 10px;
+}
+.container1-box2{
+ order:2;
+ flex:2;
+}
+.container1-box1{
+order:1;
+
+}
+
+.container2-box2{
+order: 2;
+flex:2;
+}
+.container2-box1{
+    order:1;
+   flex: 1;
+    flex-basis: content;
+}
