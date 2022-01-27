@@ -1,0 +1,21 @@
+.ani-boxes > div{
+    background: #f2f2f2;
+    color:#fff;
+    border:4px;
+    padding:1em;
+    margin: 0 0 1em;
+    width:300px;
+}
+
+.ani-boxes:nth-child(even)> div{
+    background: #27b4a8;
+    animation-duration:11s;
+}
+.ani-boxes:nth-child(odd)>div{
+    background: #f4645f;
+    /* animation-duration:11s; */
+}
+
+.is-size-4{
+    font-size: 40px;
+}
